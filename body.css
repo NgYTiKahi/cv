@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    
+    padding: 20px 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 113px;
+    height: 113px;
+}
+
+header h1 {
+    color: #0e2452;
+    margin: 10px 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid #0e2452;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section-content li {
+    margin: 10px 0;
+}
+
+.education-list .education-item,
+.job-list .job-item,
+.project-list .project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.education-time, .job-time, .project-time {
+    flex-basis: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.education-details, .job-details, .project-details {
+    flex-basis: 75%;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #0e2452;
+}
